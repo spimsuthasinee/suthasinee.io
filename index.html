@@ -1,0 +1,53 @@
+
+
+			<!DOCTYPE HTML>
+			<html lang="en">
+				<head>
+
+					<title>Customer feedback</title>
+					<style>
+						form{
+							margin-top: 30px;
+							font-size: 20px;
+							background-color: antiquewhite;
+						}
+						input{
+							width: 250px;
+
+						}
+						textarea{
+							height: 80px;
+							max-height: 150px;
+							width: 250px;
+
+						}
+						table,td,tr{
+							width: 600px;
+							border-collapse: collapse;
+						}
+						button{
+							background-color:blueviolet;
+							width: auto;
+							font-size: 20px;
+						}
+
+					</style>
+
+
+				</head>
+				<body>
+
+
+					<form action="formhandler.php" method="post">
+						<table>
+						<tr><td>First Name * <td> <input type="text" name="firstname" ></td></tr>
+						<tr><td>Last Name * <td><input type="text" name="lastname" ></td></tr>
+						<tr><td>Email Address * <td><input type="text" name="email" ></td></tr>
+						<tr><td>Telephone Number  <td><input type="text" name="phonenumber" ></td></tr>
+						<tr><td>Comments* <td><textarea type="text" name="comment" ></textarea></td></tr>
+						<tr><td><td><button type="submit" name="submit">Submit</button></td></tr>
+						</table>
+					</form>
+				</body>
+
+			</html>
